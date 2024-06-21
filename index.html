@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Motos</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #db7e7e;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  .gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .description {
+    margin-top: 20px;
+    text-align: justify;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Selección de Motos</h1>
+  <div class="gallery">
+    <img src="moto1.jpg" alt="Moto 1">
+    <img src="moto2.jpg" alt="Moto 2">
+    <img src="moto3.jpg" alt="Moto 3">
+  </div>
+  <div class="description">
+    <p>Explora nuestra selección de motocicletas, desde elegantes deportivas hasta robustas motos de aventura. Cada una de estas máquinas está diseñada para ofrecer un rendimiento excepcional y una experiencia de conducción única. Ya sea que busques velocidad, agilidad o comodidad, nuestras motos están listas para llevarte a donde quieras ir.</p>
+    <p>Descubre tu favorita y prepárate para vivir la emoción de la carretera con estilo y seguridad.</p>
+  </div>
+</div>
+</body>
+</html>
